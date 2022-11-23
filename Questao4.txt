@@ -1,0 +1,18 @@
+4) Para encontrar a maior chave armazenada na árvore teremos que seguir os princípios dela e seguir a busca
+sempre pela direita, onde se encontram os maiores filhos da árvore. Entretanto, temos de fazer uma busca em 
+cada nó, avaliando suas chaves, pois pode acontecer dos filhos ainda não possuírem a maior chave. No exemplo
+abaixo nós podemos ver isso
+
+
+		270 | 290
+
+	|	    |
+
+     240       280|282
+
+Nesse caso, há ainda espaço para que sejam adicionadas chaves maiores que o 290, mas 290 continua sendo a 
+maior chave no momento. Então para encontrar a maior chave nós iremos seguir os seguintes passos : verificar
+as chaves do nó atual, guardar a maior em uma variável auxiliar, verificar se há um nó filho mais à direita,
+realizar o mesmo ciclo de verificação de chaves e guardar a nova maior chave. Dessa forma nós sempre guardaremos
+a maior chave e verificar se há filhos e as chaves dos filhos, se existentes, sempre comparando com a maior chave
+já guardada. Assim a gente começa com a maior chave da raíz como o maior e depois encontra a maior chave.
