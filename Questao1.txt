@@ -1,0 +1,3 @@
+﻿Uma árvore B deve respeitar a propriedade de equilíbrio perfeito, perfeitamente balanceada, e, sendo “m” a ordem,  cada nó deve possuir no mínimo m/2 chaves. Quando temos mais de m-1 chaves em um nó, fazemos o split do nó. Para que isso funcione, o grau de um nó em árvore B, e seu número de filhos, não pode ser 1. 
+
+Mais claramente, já que o número de chaves em cada nó não folha é um a menos que o número de filhos, e cada filho está organizado no contexto de árvore de busca, se tivéssemos o número de filhos=1, teríamos uma incongruência da lógica da árvore.
